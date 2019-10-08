@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>charla on The Imperfect Manager</title>
+    <link>https://xala3pa.github.com/tags/charla/</link>
+    <description>Recent content in charla on The Imperfect Manager</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Mon, 30 Sep 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://xala3pa.github.com/tags/charla/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Engineering Manager vs Tech Lead</title>
+      <link>https://xala3pa.github.com/blog/managervstechlead/</link>
+      <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://xala3pa.github.com/blog/managervstechlead/</guid>
+      <description>Engineering Manager vs Tech Lead Para empezar con la serie de charlas sobre leadership and management, quería comenzar con un video de Félix López de la Commit Conf del 2018, que tuve la suerte de ver en directo. En esta charla Félix nos cuenta las diferencias que hay entre un Egineering Manager y un Tech Lead y nos presenta de forma divertida diferentes tipos de managers tóxicos, así como una serie de herramientas que como managers nos pueden ser muy útiles para evitar vernos reflejados en alguno de los tipos de manager que Félix nos relata en la charla.</description>
+    </item>
+    
+  </channel>
+</rss>

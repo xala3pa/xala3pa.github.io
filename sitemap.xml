@@ -3,48 +3,88 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://xala3pa.github.com/about/</loc>
-    <lastmod>2019-09-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://xala3pa.github.com/blog/</loc>
-    <lastmod>2016-01-22T00:00:00+00:00</lastmod>
+    <lastmod>2019-09-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://xala3pa.github.com/categories/</loc>
-    <lastmod>2016-01-22T00:00:00+00:00</lastmod>
+    <lastmod>2019-09-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://xala3pa.github.com/tags/learning/</loc>
-    <lastmod>2016-01-22T00:00:00+00:00</lastmod>
+    <loc>https://xala3pa.github.com/tags/charla/</loc>
+    <lastmod>2019-09-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://xala3pa.github.com/categories/learning/</loc>
-    <lastmod>2016-01-22T00:00:00+00:00</lastmod>
+    <loc>https://xala3pa.github.com/categories/charla/</loc>
+    <lastmod>2019-09-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://xala3pa.github.com/tags/reading/</loc>
-    <lastmod>2016-01-22T00:00:00+00:00</lastmod>
+    <loc>https://xala3pa.github.com/blog/managervstechlead/</loc>
+    <lastmod>2019-09-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://xala3pa.github.com/blog/speed_reading/</loc>
-    <lastmod>2016-01-22T00:00:00+00:00</lastmod>
+    <loc>https://xala3pa.github.com/tags/manager/</loc>
+    <lastmod>2019-09-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xala3pa.github.com/categories/manager/</loc>
+    <lastmod>2019-09-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://xala3pa.github.com/tags/</loc>
-    <lastmod>2016-01-22T00:00:00+00:00</lastmod>
+    <lastmod>2019-09-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xala3pa.github.com/tags/teams/</loc>
+    <lastmod>2019-09-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xala3pa.github.com/categories/teams/</loc>
+    <lastmod>2019-09-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://xala3pa.github.com/</loc>
-    <lastmod>2016-01-22T00:00:00+00:00</lastmod>
+    <lastmod>2019-09-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xala3pa.github.com/blog/onboarding/</loc>
+    <lastmod>2019-09-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xala3pa.github.com/tags/learning/</loc>
+    <lastmod>2019-09-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xala3pa.github.com/categories/learning/</loc>
+    <lastmod>2019-09-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xala3pa.github.com/tags/reading/</loc>
+    <lastmod>2019-09-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xala3pa.github.com/blog/speed_reading/</loc>
+    <lastmod>2019-09-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://xala3pa.github.com/about/</loc>
+    <lastmod>2019-09-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>

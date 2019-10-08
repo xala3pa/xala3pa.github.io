@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>The Imperfect Manager</title>
-    <link>https://xala3pa.github.com/</link>
-    <description>Recent content on The Imperfect Manager</description>
+    <title>teams on The Imperfect Manager</title>
+    <link>https://xala3pa.github.com/categories/teams/</link>
+    <description>Recent content in teams on The Imperfect Manager</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
     <lastBuildDate>Mon, 30 Sep 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://xala3pa.github.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://xala3pa.github.com/categories/teams/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -27,16 +27,6 @@
       
       <guid>https://xala3pa.github.com/blog/onboarding/</guid>
       <description>Onboarding Para daros uno poco más de contexto sobre las razones para hacer un post sobre los onboarding</description>
-    </item>
-    
-    <item>
-      <title>Speed Reading</title>
-      <link>https://xala3pa.github.com/blog/speed_reading/</link>
-      <pubDate>Sun, 22 Sep 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://xala3pa.github.com/blog/speed_reading/</guid>
-      <description>Speed Reading Como comentaba en un post anterior unos de los objetivos del año era poner en práctica diferentes técnicas de estudio. Actualmente mi principal fuente de recursos formativos procede de la lectura , ya sea por medio de libros o a través de la lectura de foros, post, papers en internet.
-Si como comentaba anteriormente la idea es el aprovechamiento del tiempo dedicado al estudio, la pregunta es obvia: ¿Cómo puedo mejorar mi velocidad de lectura?</description>
     </item>
     
   </channel>

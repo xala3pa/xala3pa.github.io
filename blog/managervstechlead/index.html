@@ -1,0 +1,785 @@
+<!doctype html>
+<html lang="es">
+  <head>
+  <meta charset="utf-8">
+<title>Engineering Manager vs Tech Lead - The Imperfect Manager</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png?v=1">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png?v=1">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png?v=1">
+  <link rel="manifest" href="/favicon/site.webmanifest?v=1">
+  
+    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg?v=1" color="#ffffff">
+    <link rel="shortcut icon" href="/favicon/favicon.ico?v=1">
+    <meta name="msapplication-config" content="/favicon/browserconfig.xml?v=1">
+  
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+
+  <meta name="generator" content="Hugo 0.58.1" />
+  <meta itemprop="name" content="Engineering Manager vs Tech Lead">
+<meta itemprop="description" content="Engineering Manager vs Tech Lead">
+
+
+<meta itemprop="datePublished" content="2019-09-30T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2019-09-30T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="2525">
+
+
+
+<meta itemprop="keywords" content="manager,teams,charla," />
+
+  <meta property="og:title" content="Engineering Manager vs Tech Lead" />
+<meta property="og:description" content="Engineering Manager vs Tech Lead" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://xala3pa.github.com/blog/managervstechlead/" />
+<meta property="article:published_time" content="2019-09-30T00:00:00+00:00" />
+<meta property="article:modified_time" content="2019-09-30T00:00:00+00:00" /><meta property="og:site_name" content="The Imperfect Manager" />
+
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Engineering Manager vs Tech Lead"/>
+<meta name="twitter:description" content="Engineering Manager vs Tech Lead"/>
+<meta name="twitter:site" content="@xala3pa"/>
+
+  
+
+  <link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css">
+  
+    
+      <link rel="stylesheet" href="/css/normalize.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800,900|Source+Sans+Pro:400,700">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
+      
+      
+      <link rel="stylesheet" href="/css/main.min.0a64f3eede6e78edc2d8b2ca7051e4d9a6379f472dac76b1168733b88d27146a.css" integrity="sha256-CmTz7t5ueO3C2LLKcFHk2aY3n0ctrHaxFoczuI0nFGo=">
+      <link rel="stylesheet" href="/css/add-on.css">
+    
+  
+  
+  
+  
+</head>
+
+  <body>
+    
+<header id="site-header">
+  <nav id="site-nav">
+    <h1 class="nav-title">
+      <a href="/">
+        
+          
+            Blog
+          
+        
+      </a>
+    </h1>
+    <menu id="site-nav-menu" class="flyout-menu">
+      
+        
+          
+          
+            <a href="/" class="link"><i class='fas fa-home'></i> Inicio</a>
+          
+        
+      
+        
+          
+          
+            <a href="/about/" class="link"><i class='far fa-id-card'></i> Sobre Mí</a>
+          
+        
+      
+        
+          
+          
+            <a href="/blog/" class="link"><i class='far fa-newspaper'></i> Blog</a>
+          
+        
+      
+        
+          
+          
+            <a href="/categories/" class="link"><i class='fas fa-sitemap'></i> Categorías</a>
+          
+        
+      
+        
+          
+          
+            <a href="/contact/" class="link"><i class='far fa-envelope'></i> Contacto</a>
+          
+        
+      
+      <a href="#share-menu" class="share-toggle"><i class="fas fa-share-alt">&nbsp;</i>Share</a>
+      
+
+    </menu>
+    
+
+    <a href="#share-menu" class="share-toggle"><i class="fas fa-share-alt fa-2x">&nbsp;</i></a>
+    <a href="#lang-menu" class="lang-toggle" lang="es">es</a>
+    <a href="#site-nav" class="nav-toggle"><i class="fas fa-bars fa-2x"></i></a>
+  </nav>
+  <menu id="lang-menu" class="flyout-menu">
+  <a href="#" lang="es" class="link active">Español (es)</a>
+  
+    
+      
+    
+  
+</menu>
+
+  
+    <menu id="share-menu" class="flyout-menu">
+      <h1>Share Post</h1>
+      
+
+
+
+
+  
+    
+    <a href="//twitter.com/share?text=Engineering%20Manager%20vs%20Tech%20Lead&amp;url=https%3a%2f%2fxala3pa.github.com%2fblog%2fmanagervstechlead%2f" target="_blank" rel="noopener" class="share-btn twitter">
+        <i class="fab fa-twitter"></i><p>&nbsp;Twitter</p>
+      </a>
+  
+
+  
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fxala3pa.github.com%2fblog%2fmanagervstechlead%2f&amp;title=Engineering%20Manager%20vs%20Tech%20Lead" target="_blank" rel="noopener" class="share-btn linkedin">
+            <i class="fab fa-linkedin"></i><p>&nbsp;LinkedIn</p>
+          </a>
+  
+
+  
+        <a href="mailto:?subject=Check out this post by %7b%20%20%20%20%20%20%20%20map%5b%5d%7d&amp;body=https%3a%2f%2fxala3pa.github.com%2fblog%2fmanagervstechlead%2f" target="_blank" class="share-btn email" data-proofer-ignore>
+          <i class="fas fa-envelope"></i><p>&nbsp;Email</p>
+        </a>
+  
+
+
+    </menu>
+  
+</header>
+
+    <div id="wrapper">
+      <section id="site-intro">
+  <a href="/"><img src="/img/main/logo.jpg" class="circle" width="150" alt="The Imperfect Manager" /></a>
+  <header>
+    <h1>The Imperfect Manager</h1>
+  </header>
+  <main>
+    <p>Following the manager's path</p>
+  </main>
+  
+    <footer>
+      <ul class="socnet-icons">
+        
+
+        <li><a href="//github.com/xala3pa" target="_blank" rel="noopener" title="GitHub" class="fab fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//linkedin.com/in/alvaro-salazar-46788b5" target="_blank" rel="noopener" title="LinkedIn" class="fab fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//instagram.com/xala3pa" target="_blank" rel="noopener" title="Instagram" class="fab fa-instagram"></a></li>
+
+<li><a href="//twitter.com/xala3pa" target="_blank" rel="noopener" title="Twitter" class="fab fa-twitter"></a></li>
+
+
+
+
+
+
+
+
+
+
+<li><a href="mailto:salazar3pa@gmail.com" target="_blank" title="Email" class="far fa-envelope"></a></li>
+
+      </ul>
+    </footer>
+  
+</section>
+
+      <main id="site-main">
+        <article class="post">
+  <header>
+  <div class="title">
+    
+        <h2><a href="/blog/managervstechlead/">Engineering Manager vs Tech Lead</a></h2>
+    
+    
+        <p>Engineering Manager vs Tech Lead</p>
+    
+</div>
+  <div class="meta">
+    <time class="published" datetime="2019-09-30 00:00:00 &#43;0000 UTC">
+      September 30, 2019
+    </time>
+    <span class="author">Álvaro Salazar</span>
+    
+      <p>12 minutos</p>
+    
+  </div>
+</header>
+
+  <section id="socnet-share">
+    
+
+
+
+
+  
+    
+    <a href="//twitter.com/share?text=Engineering%20Manager%20vs%20Tech%20Lead&amp;url=https%3a%2f%2fxala3pa.github.com%2fblog%2fmanagervstechlead%2f" target="_blank" rel="noopener" class="share-btn twitter">
+        <i class="fab fa-twitter"></i><p>&nbsp;Twitter</p>
+      </a>
+  
+
+  
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fxala3pa.github.com%2fblog%2fmanagervstechlead%2f&amp;title=Engineering%20Manager%20vs%20Tech%20Lead" target="_blank" rel="noopener" class="share-btn linkedin">
+            <i class="fab fa-linkedin"></i><p>&nbsp;LinkedIn</p>
+          </a>
+  
+
+  
+        <a href="mailto:?subject=Check out this post by %7b%20%20%20%20%20%20%20%20map%5b%5d%7d&amp;body=https%3a%2f%2fxala3pa.github.com%2fblog%2fmanagervstechlead%2f" target="_blank" class="share-btn email" data-proofer-ignore>
+          <i class="fas fa-envelope"></i><p>&nbsp;Email</p>
+        </a>
+  
+
+
+  </section>
+  
+  <a href="/blog/managervstechlead/" class="image featured">
+    <img src="/img/2019/09/kobu-agency-kI1iR7l55FM-unsplash.jpg" alt="Dev Manager vs Tech Lead">
+  </a>
+
+
+  <div class="content">
+    
+
+<h1 id="engineering-manager-vs-tech-lead"><strong>Engineering Manager vs Tech Lead</strong></h1>
+
+<p>Para empezar con la serie de charlas sobre <strong>leadership and management</strong>, quería comenzar con un video de Félix López de la Commit Conf del 2018, que tuve la suerte de ver en directo.
+En esta charla Félix nos cuenta las diferencias que hay entre un <strong>Egineering Manager</strong> y un <strong>Tech Lead</strong> y nos presenta de forma divertida diferentes tipos de managers tóxicos, así como una serie de herramientas que como managers nos pueden ser muy útiles para evitar vernos reflejados en alguno de los tipos de manager que Félix nos relata en la charla.</p>
+
+<h2 id="engineering-manager-vs-tech-lead-félix-lópez"><strong>&ldquo;Engineering Manager vs Tech Lead&rdquo; - Félix López</strong></h2>
+
+<p><a href="http://www.youtube.com/watch?feature=player_embedded&v=t9wEK6-EW5M
+" target="_blank"><img src="http://img.youtube.com/vi/t9wEK6-EW5M/0.jpg" 
+alt="Félix López - Engineering Manager vs Tech Lead" width="" height="" border="10" /></a></p>
+
+<h3 id="qué-es-ser-un-manager">¿Qué es ser un manager?</h3>
+
+<p>Creo que es un acierto depor parte de Félix comenzar la charla haciendo hincapié en que no hay una definición standard de lo que es ser un <strong>manager</strong> y ésta puede diferir mucho de una empresa a otra. El contexto, tamaño y madurez de la empresa, pueden ser determinantes a la hora de encontrar una definición.</p>
+
+<p>Por lo tanto ser <strong>Engineering Manager</strong> puede significar cosas diferente dependiendo de la empresa en la que trabajes.
+Lo que es independiente de la empresa y aplica a cualquier definición, es que un rol de gestión requiere de unos skills concretos en los que hay que formarse.
+Hay gente que tiene un mayor predisposición natural para este tipo de roles, pero como todo en esta vida se puede aprender si le dedicamos tiempo y cariño.</p>
+
+<p>Actualmente podemos ver dos tendencias en la industria en cuanto a lo que significa ser un manager:</p>
+
+<ul>
+<li><p>El manager que se dedica casi en exclusiva a la <strong>gestión de personas</strong> y en ocasiones a la <strong>evaluación del desempeño</strong>.</p></li>
+
+<li><p>El manager que es a la vez el tech lead del equipo, aunque el rol entendio de esta manera solo escala hasta un determinado punto. Cuando crece el número de personas a su cargo tiene que tomar una decisión de que quiere hacer, por que todo no lo podrá hacer bien.</p></li>
+</ul>
+
+<p>Uno de las partes más divertidas de la charla es cuando Félix introduce diferentes versiones de <strong>managers tóxicos</strong> que nos podemos encontrar en cualquier empresa y cual sería el contra-ejemplo:</p>
+
+<h3 id="no-me-cuentes-tus-problemas"><strong>&ldquo;No me cuentes tus problemas&rdquo;</strong></h3>
+
+<ul>
+<li>Es aquél manager al que no le interesan los problemas de los demás y menos si éstos son personales. Suelen pensar que el problema es el equipo y por lo general no se dan cuenta de que el problema son ellos mismos.</li>
+</ul>
+
+<p><strong>El contra-ejemplo:</strong></p>
+
+<ul>
+<li>Uno de los trabajos más importantes de un buen manager es <strong>saber escuchar</strong>, escuchar con el objetivo de poder anticipar conflictos, resolver problemas y mejorar la confianza con su equipo.</li>
+<li>Así mismo un buen manager tiene que ser un buen observador, capaz de ver como lo esta haciendo su equipo para poder corregir posibles problemas, capaz de identificar cambios de actitud en el equipo y actuar a tiempo.</li>
+<li>Para que el equipo entienda que el trabajo de un manager es cuidar del equipo, es vital mostrarse siempre disponible, que el equipo entienda que la prioridad como manager es su propio equipo.</li>
+</ul>
+
+<p><strong>Herramientas:</strong></p>
+
+<p><strong>One-On-One:</strong>
+Como managers es una de las mejores herramientas que tenemos a nuestro alcance para mejorar la confianza con la gente del equipo, recibir y dar feedback, motivar y dar apoyo a cada miembro del equipo.</p>
+
+<p>Algunos links para profundizar más sobre el tema:</p>
+
+<ul>
+<li><p><a href="https://getlighthouse.com/blog/one-on-one-meeting-questions-great-managers-ask/">One-On-One meeting questions</a></p></li>
+
+<li><p><a href="https://blog.impraise.com/360-feedback/how-to-run-effective-one-on-one-meetings-as-manager">How to run effective One-On-One meetings</a></p></li>
+</ul>
+
+<h3 id="el-ausente"><strong>&ldquo;El ausente&rdquo;</strong></h3>
+
+<p>El ausente, es uno de los managers que nos encontramos con mayor frecuencia hoy en día en las empresas, sería aquel manager que nunca esta cuando se le necesita, aquel manager que no tiene tiempo para su equipo. Es común que se salte los One-On-One como norma.</p>
+
+<p>Es ocasiones esto viene motivado por una falta de claridad o ausencia en la definición del rol y las tareas a realizar.
+Siendo honesto éste es el tipo de manager en el que más veces me he visto reflejado. En mi camnino desde desarrollador hasta manager he pasado por mucho estados de indefinición que me han hecho caer en este tipo de manager.</p>
+
+<p>Uno de los skills que en mi caso más me han ayudado a corregir este tipo de comportamientos ,ha sido tener conciencia de uno mismo, conocido como <strong>self awareness</strong>, para poder ir corrigiendo.</p>
+
+<p>Os dejo un link si quereis profundizar un poco más sobre este importante skill.</p>
+
+<ul>
+<li><a href="https://getlighthouse.com/blog/self-awareness-skill-managers-learn-build/">Self awareness</a></li>
+</ul>
+
+<p>Es muy importante para evitar este problema, que las empresas trabajen en la definición del rol y las tareas que conlleva dicho rol.</p>
+
+<p><strong>El contra-ejemplo:</strong></p>
+
+<p>Félix comenta en la charla que un manager debe guiar, liderar.
+Es crítico como manager entender que tu tiempo te deja de pertenecer, tú tiempo pasa a pertenecer a tu equipo.</p>
+
+<p>Liderar, guiar se traduce en la mayoría de los casos en hacer las preguntas correctas para guiar la respuestas, dejando que el equipo encuentre su propio camino. Un buen manager tiene que ser un mejor coach.</p>
+
+<p><strong>Herramientas:</strong></p>
+
+<p>Una de la herramientas más valiosas de un manager es: <strong>dar feedback</strong></p>
+
+<p>Como Félix aclara en su charla, el Feedback simpre deberá ser constructivo, en caso contrario será una crítica y como managers tenemos que evitar siempre caer en este tipo de situaciones.</p>
+
+<p>Más adelante Félix introduce un framework sobre como estructurar la conversación a la hora de dar feedback. Luego comentaremos más detalles sobre el framework en cuestión. De momento os dejo algún Link con consejos sobre como dar un mejor feedback:</p>
+
+<ul>
+<li><a href="https://qz.com/work/1238966/how-to-give-feedback-more-effectively/">How to give feedback more effectively</a></li>
+<li><a href="https://blog.impraise.com/360-feedback/keep-calm-and-give-constructive-feedback">Keep calm and give constructive feedback</a></li>
+</ul>
+
+<h3 id="pues-lo-que-hay"><strong>&ldquo;Pues lo que hay&rdquo;</strong></h3>
+
+<p>Básicamente este viene a ser el manager que si te escucha, pero no le importa nada lo que le estás diciendo.</p>
+
+<p><strong>El contra-ejemplo:</strong></p>
+
+<blockquote>
+<p>&ldquo;A Manage&rsquo;s job involves making it easy for her employees to get things done by creating fertile enviroments in which work can happen&rdquo; - Camille Fournier</p>
+</blockquote>
+
+<p>El trabajo del manager es allanar el camino a la gente de su equipo, de manera que se puedan centrar en hacer su trabajo.
+Para ello es muy importante que un manager entienda que es lo que esta haciendo su equipo, que entienda que estan haciendo otros equipos&hellip; es importante para un manager extender su área de influencia, observar y estar al tanto de oportunidades que puedan surgir en la empresa en las que pueda encajar alguien de su equipo. Un buen manager siempre pondrá por delante la felicidad y el éxito de un miembro de su equipo, aunque eso suponga dejarle ir a otro equipo para que persiga una nueva oportunidad.</p>
+
+<p><strong>Herramientas:</strong></p>
+
+<p>Una de las herramientas que comenta Félix que usan en Google, y que me parece una gran idea son los <strong>Ninja Lunch</strong>. Básicamete consiste en salir a comer con alguien ramdon dentro de la empresa, de modo que te ayude a conocer a gente nueva, estar al tanto de nuevas oportunidades para el equipo y ayudar a que como manager crezca nuestra área de influencia en la compañía.</p>
+
+<h3 id="por-mi-cojones"><strong>&ldquo;Por mi cojones&rdquo;</strong></h3>
+
+<p>Es aquel manager que cuya manera de motivar es por medio del miedo. Tienen un concepto del liderazgo muy mal entendido.</p>
+
+<blockquote>
+<p>Managers are not the deciders - David Marquet</p>
+</blockquote>
+
+<p><strong>El contra-ejemplo:</strong></p>
+
+<p>El trabajo de un manager tiene que ser crear entornos creativos, entornos con autonomía y ownership, entornos donde se fomente la toma de decisiones en lugar de dirigir. Potenciar el <strong>&ldquo;bottom-up&rdquo;</strong> frente al <strong>&ldquo;top-down&rdquo;</strong>.
+El sistema tradicional de liderazgo (&ldquo;top-down&rdquo;) crea followers, gente que no se cuestiona las decisiones. Es importante para la empresa que su gente tenga mucho espiritu crítico y un foco claro.</p>
+
+<p>Félix hace referencia en la charla a un libro de David Marquet, cuya lectura al igual que hace Félix en su charla la recomiendo a todo manager:</p>
+
+<ul>
+<li><a href="https://www.amazon.es/Turn-Ship-Around-Building-Breaking/dp/1591846404">Turn the Ship Around!</a></li>
+</ul>
+
+<p>Os dejo también un enlace a una charla muy recomendable del mismo David Marquet:</p>
+
+<ul>
+<li><a href="https://www.youtube.com/watch?v=IzJL8zX3EVk">&ldquo;Turn the Ship Around&rdquo; | Talks at Google</a></li>
+</ul>
+
+<p><strong>Herramientas:</strong></p>
+
+<p><img src="https://i1.wp.com/www.geoffmazeroff.com/wp-content/uploads/2017/10/ccc_losthelpless.png" alt="Control, competence and clarity" title="Control, competence and clarity " /></p>
+
+<p>David creó un sistema para trasformar a la gente de followers a líderes.</p>
+
+<p>Como líderes, tenemos que tener muy presente los niveles de control, competencia y claridad del equipo de modo que podamos ayudarles de manera eficiente dependiendo en que nivel se ecuentre cada uno.</p>
+
+<p>Os dejo por aquí el link al post del cual está sacada la imagen, donde se profundiza más en el concepto:</p>
+
+<ul>
+<li><a href="https://www.geoffmazeroff.com/2017/10/23/control-competence-and-clarity/">Control, competence and clarity</a></li>
+</ul>
+
+<p>En un momento de la charla Félix comenta que uno de los valores de una de las empresas por las que ha pasado era: <strong>start with Why</strong>.
+No se si está relacionado con el libro de <em>Simon Sinek</em>, pero os dejo el link por que para mí es un libro recomendadísimo, que me gusto mucho cuando lo leí:</p>
+
+<ul>
+<li><a href="https://simonsinek.com/product/start-with-why/">Start With Why Book</a></li>
+</ul>
+
+<h2 id="herramientas-básicas-de-un-manager">Herramientas básicas de un manager</h2>
+
+<h3 id="one-to-one">One-to-One</h3>
+
+<ul>
+<li>No es un reunión de trabajo, no debe usarse para ver el estado del proyecto.</li>
+<li>Es una oportunidad para crear un vínculo con la persona del equipo, para mejorar la confianza.</li>
+<li>Una de las formas de mejorar la confianza es mostrando preocupación.</li>
+</ul>
+
+<p>Os dejo por aquí algún enlace, con consejos para preparar vuestro primer 121:</p>
+
+<ul>
+<li><a href="https://www.impraise.com/blog/1-on-1s-for-engaged-employees-how-good-managers-run-them">One-on-One Tips</a></li>
+<li><a href="https://getlighthouse.com/blog/one-on-one-meeting-questions-great-managers-ask/">One-on-One Questions</a></li>
+</ul>
+
+<h3 id="framework-de-competencias-ladder">Framework de Competencias (Ladder)</h3>
+
+<p>Podríamos decir que se trata de una descripción de las tareas y skills para cada rol dentro de la empresa.
+Es una herramnienta para crear estructura y claridad en el proceso de promoción de una empresa.</p>
+
+<p>Os dejo algunos links con ladders públicos de alguna empresa que me han resultado interesantes:</p>
+
+<ul>
+<li><a href="https://www.progression.fyi/f/rent-the-runway/">Rent the runway Engineering Ladder, creado por Camile Fournier</a></li>
+<li><a href="https://ladder.glossier.io/">Glossier Engineering Ladder</a></li>
+<li><a href="https://gist.github.com/jamtur01/aef437a79fee5a9cefdc">Kickstarter Engineering Ladder</a></li>
+</ul>
+
+<h3 id="career-conversations">Career Conversations</h3>
+
+<p>Una de la formas de saber si estas haciendo bien tu trabajo como manager es ver que la gente de tu equipo esta creciendo y se está desarrollando.
+Carrer conversations, te ayuda como manager a entender los objetivos de desarrollo personal que persigue la gente de tu equipo y te ayuda a articular los pasos necesarios para poder ayudarles a alcanzarlos.</p>
+
+<p>Os dejo opr aquí algún link sobre el tema:</p>
+
+<ul>
+<li><a href="https://www.radicalcandor.com/blog/problem-career-conversations/">The problem with carrer conversations today</a></li>
+<li><a href="https://medium.com/fellowapp/want-to-be-a-great-manager-have-career-conversations-with-your-team-5e432dcdce86">How to have career conversations with your employees</a></li>
+</ul>
+
+<h3 id="performance-review">Performance Review</h3>
+
+<p>El performance review, básicamente consiste en una conversación formal para evaluar el desempeño de las personas que tenemos como parte del equipo, identificando las fortalezas y debilidades de cada persona. Es un buen momento para ofrecer feedback y establecer objetivos futuros.</p>
+
+<p>Una de las cosas que comenta Félix y que para mí es crítica es que un buen manager nunca tiene sorpresas en el performance review.
+Todavía es muy común hoy en día ver empresas en las que el performance review consiste en un conversación a el final del año, y es en estos casos donde como managers nos podemos llevar muchas sorpresas. De ahí que en mi caso le doy mucha importancia a realizar evaluación continua.</p>
+
+<p>Links relacionados con el performance review:</p>
+
+<ul>
+<li><a href="https://hr.mit.edu/performance/reviews">The Performace Review</a></li>
+<li><a href="https://www.amanet.org/articles/the-dos-and-donts-of-performance-reviews/">The DOs and DON’Ts of Performance Reviews</a></li>
+<li><a href="https://hrexecutive.com/the-annual-review-process-is-broken-heres-how-you-can-fix-it/">The Annual Review Process is Broken. Here’s How You Can Fix it</a></li>
+<li><a href="https://www.impraise.com/blog/7-important-considerations-when-redesigning-your-performance-reviews">7 important considerations when redesigning your performance reviews</a></li>
+</ul>
+
+<h2 id="manager-s-tools">Manager&rsquo;s Tools:</h2>
+
+<h3 id="s-b-i-feedback-model">S.B.I. Feedback Model</h3>
+
+<p><strong>S.B.I. - Situation-Behavior-Impact Model</strong>
+Esa una estupenda herramienta que nos ayuda a estructurar nuestro pensamiento y la conversación a la hora de dar feedback. Esta demostrado que S.B.I. ayuda a reducir la ansidad a la hora del dar el feedback y ayuda a posicionar a la persona que lo recibe de forma menos defensiva.</p>
+
+<p>Link con más detalles sobre SBI:</p>
+
+<ul>
+<li><a href="https://www.ccl.org/articles/leading-effectively-articles/closing-the-gap-between-intent-and-impact/">Use the SBI Feedback Model to Understand Intent</a></li>
+</ul>
+
+<p>Una variación del modelo anterior es SBI-BI, donde se ofrece un comportamiento alternativo, junto con el impacto que se espera del nuevo comportamiento.</p>
+
+<p><a href="https://teamsandleadership.net/sites/default/files/Situation-behaviour-impact%20%28SBI%29%20feedback%20model.pdf">SBI-BI Model</a></p>
+
+<h3 id="grow">GROW</h3>
+
+<p>Herramienta esencial para coaching. Ayuda a estructurar la conversación.
+Importante comentar en este punto que el objetivo de el coaching no es enseñar, sino hacer las preguntas adecuadas para que la persona se &ldquo;enseñe&rdquo; así mismo.</p>
+
+<p><img src="https://lh3.googleusercontent.com/AYK08GFh71RZlhfERZpnGMLuRbMrADE--R15GojiYC6g8j-hJGPAgXKzklzQ4KWfklREWWOls1_070F3QsfVo4Sk=s0" alt="Thew GROW coaching model" title="Thew GROW coaching model" /></p>
+
+<ul>
+<li><a href="https://rework.withgoogle.com/guides/managers-coach-managers-to-coach/steps/coach-with-the-grow-model/">Coach with the GROW model</a></li>
+</ul>
+
+<h3 id="competence-ladder">Competence Ladder</h3>
+
+<p><img src="https://i2.wp.com/ukcpd.net/collegemembers/wp-content/uploads/modelling-a.png" alt="Competence Ladder" title="Competence Ladder" /></p>
+
+<ul>
+<li><a href="https://www.merielswain.co.uk/blog-reader/laughably-awful.html">Competence Ladder</a></li>
+</ul>
+
+<p>Es vital entender en que estado de conocimiento se encuentra la otra persona, ya que dependiendo de en que escalón se encuentre requerirá diferente tipo de ayuda.</p>
+
+<h2 id="tech-lead">Tech Lead</h2>
+
+<p><img src="../images/felix.png" alt="Tech lead wrong Path" /></p>
+
+<p>No puedo estar más de acuerdo con Félix en la representación del <strong>Tech Lead <em>WRONG</em> Path</strong>. Esto me recuerda <strong>el principio de Peter</strong>, que tanto se repite en la empresa tradicional. Para aquellos que no os suene os dejo un link a la Wikipedia:</p>
+
+<ul>
+<li><a href="https://es.wikipedia.org/wiki/Principio_de_Peter">Principio de Peter</a></li>
+</ul>
+
+<p>Félix comenta que ser Tech lead, no tiene nada que ver con ser técnico. No tiene que ver con ser el que más sabe de algo.</p>
+
+<blockquote>
+<p>&ldquo;A tech lead is not a person who can do the work better than her team; she is a person who can get her team to do the work better than she can&rdquo;</p>
+</blockquote>
+
+<p><img src="../images/Carlos_Matallin.png" alt="Tech lead wrong Path" /></p>
+
+<h3 id="sorpresa">SORPRESA!</h3>
+
+<blockquote>
+<p>Un tech lead es también un project manager - Félix López</p>
+</blockquote>
+
+<p>Un Tech lead tiene que estar centrado en el delivery, ser tech lead es un trabajo muy exigente:</p>
+
+<ul>
+<li>Tienes que estar al día de temas técnicos.</li>
+<li>Tienes que hablar con stakeholder - saber comunicar.</li>
+<li>Tienes que saber planificar un proyecto.</li>
+<li>Tienes que conocer en profuncidad el negocio.</li>
+<li>No es siempre un puesto suficientemente valorado.</li>
+</ul>
+
+<p>La comunicación es una de sus mejores skills, una persona introvertida necesitará que se le ayude.</p>
+
+<blockquote>
+<p>A key skill in TL is the ability tio measure tradeoffs between cost and benefsits e.g. when a shortcut/Technical debt is the right decision. - <em>Camille Fournier</em></p>
+</blockquote>
+
+<h4 id="principales-habilidades-de-un-tech-lead">Principales habilidades de un tech lead</h4>
+
+<ul>
+<li>Soft skills.</li>
+<li>Project management.</li>
+<li>Technical person.</li>
+<li>Keep the dream alive.</li>
+<li>Leadership.</li>
+</ul>
+
+<p>Para acabar Félix nos presenta 3 roles tóxicos relacionados con el liderazgo, que podrían aplicar tanto a Tech leads como a Engineering managers.</p>
+
+<h3 id="the-special-one"><strong>&ldquo;The special one&rdquo;</strong></h3>
+
+<p>El Mouriño de los de los managers 😂.</p>
+
+<p>Para un manager es muy importante reconocer que su equipo es <strong>awesome</strong>.
+Como managers tenemos que reconocer cuando no sabemos algo, éste es el primer paso para aprender algo nuevo. Dando ejemplo podemos ayudar al resto del equipo a crecer.</p>
+
+<h3 id="pues-se-tiene-que-poder"><strong>&ldquo;Pues se tiene que poder&rdquo;</strong></h3>
+
+<p>Es muy importante como líder aprender a decir que <em>NO</em>, es crítico aprender como y cuando decir <em>NO</em>
+En mi caso y siendo honesto es todavía una tarea pendiente en la que estoy trabajando.</p>
+
+<p>Félix comenta en la charla el Triángulo de Oro, no estoy seguro si hace en realidad al <strong>Triángulo de hierro</strong>, os dejo un link para profundizar más en el tema:</p>
+
+<ul>
+<li><a href="https://qualityobjects.com/agile-y-el-triangulo-de-hierro/">Triángulo de hierro</a></li>
+</ul>
+
+<h3 id="rey-reina-del-micromanagement"><strong>&ldquo;Rey/Reina del micromanagement&rdquo;</strong></h3>
+
+<p>Unas de sus grandes virtudes es pasar marrones a sus compañeros.</p>
+
+<p>Una de las tareas más importante de un buen manager es generar confianza, pero a su vez tener confianza en el propio equipo, empoderar al equipo.
+Hay que dejar que la gente del equipo pueda tomar sus propia decisiones y pueda equivocarse, es tarea del manager que el impacto del error no sea muy grande.
+En muchas empresas con un entorno de trabajo sano se &ldquo;premia&rdquo; el error, ya que está demostrado que es una de la mejoras formas de apredizaje.</p>
+
+<h2 id="diferencias-manager-vs-tech-lead">Diferencias Manager vs Tech Lead</h2>
+
+<p><img src="../images/resumen.png" alt="Resumen" /></p>
+
+<p>Para acabar la charla con un gran consejo de Félix:</p>
+
+<blockquote>
+<p>Don&rsquo;t fool yourself</p>
+</blockquote>
+
+<p>No es humanamente posible ser desarrollador, tech lead y manager a la vez, si lo intentamos es cuando empezaremos a ver reflejado en nuestro estilo de liderazgo alguno de los rasgos de los manager tóxicos que nos comentaba Félix en su charla.</p>
+
+<p>Si has llegado hasta aquí, muchas gracias por leerme&hellip;</p>
+
+  </div>
+  <footer>
+    <ul class="stats">
+  
+    
+    
+      <li class="categories">
+        <ul>
+          
+            
+            <li><a class="article-category-link" href="https://xala3pa.github.com/categories/manager">manager</a></li>
+          
+            
+            <li><a class="article-category-link" href="https://xala3pa.github.com/categories/teams">teams</a></li>
+          
+            
+            <li><a class="article-category-link" href="https://xala3pa.github.com/categories/charla">charla</a></li>
+          
+        </ul>
+      </li>
+    
+  
+  
+    
+    
+      <li class="tags">
+        <ul>
+          
+            
+            <li><a class="article-category-link" href="https://xala3pa.github.com/tags/manager">manager</a></li>
+          
+            
+            <li><a class="article-category-link" href="https://xala3pa.github.com/tags/teams">teams</a></li>
+          
+            
+            <li><a class="article-category-link" href="https://xala3pa.github.com/tags/charla">charla</a></li>
+          
+        </ul>
+      </li>
+    
+  
+</ul>
+
+  </footer>
+</article>
+
+
+<div class="pagination">
+  
+    <a href="/blog/onboarding/" class="button big previous"><i class="fas fa-angle-left"></i> Onboarding</a>
+  
+  
+</div>
+
+
+      </main>
+      <section id="site-sidebar">
+  
+
+  
+    
+      <section id="categories">
+        <header>
+          <h1><a href="/categories">Categorías</a></h1>
+        </header>
+        <ul>
+          
+            
+          
+          
+          <li>
+            
+              <a href="/categories/manager/">manager<span class="count">2</span></a>
+            
+          
+          <li>
+            
+              <a href="/categories/teams/">teams<span class="count">2</span></a>
+            
+          
+          <li>
+            
+              <a href="/categories/charla/">charla<span class="count">1</span></a>
+            
+          
+          <li>
+            
+              <a href="/categories/learning/">learning<span class="count">1</span></a>
+            
+          
+          </li>
+        </ul>
+      </section>
+    
+  
+
+  <section id="mini-bio">
+    <header>
+      <h1>Sobre Mí</h1>
+    </header>
+    <p></p>
+    <footer>
+      <a href="/about" class="button">Saber más</a>
+    </footer>
+  </section>
+</section>
+
+      <footer id="site-footer">
+  
+  <p class="copyright">
+    
+      &copy; 2019
+      
+        The Imperfect Manager
+      
+    . <br>
+    Tema: <a href='https://github.com/pacollins/hugo-future-imperfect-slim' target='_blank' rel='noopener'>Hugo Future Imperfect Slim</a><br>Adaptado de <a href='https://html5up.net/future-imperfect' target='_blank' rel='noopener'>HTML5 UP</a> | Impulsado por <a href='https://gohugo.io/' title='0.58.1' target='_blank' rel='noopener'>Hugo</a>
+  </p>
+</footer>
+<a id="back-to-top" href="#" class="fas fa-arrow-up fa-2x"></a>
+
+      
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/html.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/css.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/js.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/toml.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+
+
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/skel/3.0.1/skel.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
+  <script src=/js/util.js></script>
+  <script src=/js/main.js></script>
+  <script src=/js/add-on.js></script>
+  
+
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'G-SKFZE4YP25', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+    </div>
+  </body>
+</html>
