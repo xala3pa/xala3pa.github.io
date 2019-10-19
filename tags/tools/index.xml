@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tools on The Imperfect Manager</title>
+    <link>https://xala3pa.github.com/tags/tools/</link>
+    <description>Recent content in tools on The Imperfect Manager</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Fri, 18 Oct 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://xala3pa.github.com/tags/tools/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Onboarding</title>
+      <link>https://xala3pa.github.com/blog/onboarding/</link>
+      <pubDate>Fri, 18 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://xala3pa.github.com/blog/onboarding/</guid>
+      <description>Da la bienvenida a tus nuevos empleados 👋 
+¿Qué entendemos por onboarding? Creo que la respuesta puede variar mucho dependiendo de a quién le hagamos la pregunta. El tipo de empresa, el tamaño y madurez de ésta, los recursos&amp;hellip; pueden hacer que lo que entendemos por onboarding pueda ser interpretado de formas muy diversas.
+Yo personalmente creo que el onboarding es una oportunidad para crear un impacto positivo en la persona que se incorpora en la empresa.</description>
+    </item>
+    
+  </channel>
+</rss>
