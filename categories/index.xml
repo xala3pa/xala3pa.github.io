@@ -6,10 +6,19 @@
     <description>Recent content in Categories on The Imperfect Manager</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Fri, 18 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 02 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://xala3pa.github.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>tools</title>
+      <link>https://xala3pa.github.com/categories/tools/</link>
+      <pubDate>Sat, 02 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://xala3pa.github.com/categories/tools/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>manager</title>
@@ -26,15 +35,6 @@
       <pubDate>Fri, 18 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>https://xala3pa.github.com/categories/teams/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tools</title>
-      <link>https://xala3pa.github.com/categories/tools/</link>
-      <pubDate>Fri, 18 Oct 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://xala3pa.github.com/categories/tools/</guid>
       <description></description>
     </item>
     
